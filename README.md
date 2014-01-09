@@ -3,6 +3,8 @@ Iconized menu
 
 Allows you to create a menu with the corresponding favicon on the left of each item.
 
+![Screenshot of the menu](https://raw.github.com/samdark/yii2-iconized-menu-widget/master/screenshot.png)
+
 Installation
 ------------
 
