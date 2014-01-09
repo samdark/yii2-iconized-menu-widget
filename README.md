@@ -3,6 +3,20 @@ Iconized menu
 
 Allows you to create a menu with the corresponding favicon on the left of each item.
 
+Installation
+------------
+
+Add the following to `require` section of your `composer.json`:
+
+```
+"samdark/yii2-iconized-menu-widget": "*"
+```
+
+Then do `composer install`.
+
+Usage
+-----
+
 ```php
 use samdark\widgets;
 echo IconizedMenu::widget([
