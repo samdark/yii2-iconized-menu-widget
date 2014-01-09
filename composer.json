@@ -1,0 +1,22 @@
+{
+	"name": "samdark/yii2-iconized-menu-widget",
+	"description": "IconizedMenu automatically adds favicons in front of menu links",
+	"keywords": ["yii", "extension", "favicon", "menu", "icon"],
+	"homepage": "https://github.com/samdark/yii2-iconized-menu-widget",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Alexander Makarov",
+			"email": "sam@rmcreative.ru"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"samdark\\widgets\\": ""
+		}
+	}
+}
