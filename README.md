@@ -20,7 +20,7 @@ Usage
 -----
 
 ```php
-use samdark\widgets\iconizedMenu;
+use samdark\iconizedMenu;
 echo Menu::widget([
 	'items' => [
 		['label' => 'Yii Framework', 'url' => 'http://yiiframework.com/'],

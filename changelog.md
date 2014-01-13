@@ -1,6 +1,11 @@
 Iconized menu Changelog
 =======================
 
+1.2.0
+-----
+
+- Changed namespace again to conform to Yii extension guide (samdark)
+
 1.1.0
 -----
 

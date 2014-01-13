@@ -1,5 +1,5 @@
 <?php
-namespace samdark\widgets\iconizedMenu;
+namespace samdark\iconizedMenu;
 
 use Yii;
 use yii\helpers\Html;
@@ -8,7 +8,7 @@ use yii\helpers\Html;
  * IconizedMenu automatically adds favicons in front of menu links.
  *
  * ```php
- * use samdark\widgets\iconizedMenu;
+ * use samdark\iconizedMenu;
  * echo Menu::widget([
  *     'items' => [
  *         ['label' => 'Yii Framework', 'url' => 'http://yiiframework.com/'],
