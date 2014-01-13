@@ -1,15 +1,14 @@
 <?php
-namespace samdark\widgets;
+namespace samdark\widgets\iconizedMenu;
 
 use Yii;
 use yii\helpers\Html;
-use yii\widgets\Menu;
 
 /**
  * IconizedMenu automatically adds favicons in front of menu links.
  *
  * ```php
- * use samdark\widgets;
+ * use samdark\widgets\iconizedMenu;
  * echo Menu::widget([
  *     'items' => [
  *         ['label' => 'Yii Framework', 'url' => 'http://yiiframework.com/'],
@@ -23,7 +22,7 @@ use yii\widgets\Menu;
  *
  * @author Alexander Makarov <sam@rmcreative.ru>
  */
-class IconizedMenu extends Menu
+class Menu extends \yii\widgets\Menu
 {
 	public $useSprites = true;
 	public $yandexBaseUrl = 'http://favicon.yandex.net/favicon/';

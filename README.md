@@ -20,8 +20,8 @@ Usage
 -----
 
 ```php
-use samdark\widgets;
-echo IconizedMenu::widget([
+use samdark\widgets\iconizedMenu;
+echo Menu::widget([
 	'items' => [
 		['label' => 'Yii Framework', 'url' => 'http://yiiframework.com/'],
 		['label' => 'RMCreative', 'url' => 'http://rmcreative.ru/', 'items' => [
